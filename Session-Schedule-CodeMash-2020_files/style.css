@@ -1,0 +1,93 @@
+/*
+Theme Name: Codemash Redesign
+Description: Codemash Theme 2018
+Author: ZAGG Studios, Ltd.
+Author URI: https://zaggstudios.com
+Template: Avada
+Version: 0.0.2
+Text Domain: Avada
+*/
+
+body, html {
+	background-color: #282a2b !important;
+}
+
+.avada-skin-rev {
+	border-top: none !important;
+	border-bottom: none !important;
+}
+
+.rev_slider_wrapper .shadow-left {
+    display: none;
+}
+
+.rev_slider_wrapper .shadow-right {
+    display: none;
+}
+
+.home #main {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.home .dates-n-links, .home .dates-n-links h2, .home .dates-n-links h4,.home .dates-n-links a {
+	color: #ffffff;
+}
+
+.home .dates-n-links {
+	font-size: 16px;
+}
+
+.home .dates-n-links .fusion-title {
+	margin-bottom: 15px !important;
+}
+
+.home .dates-n-links .fusion-title h2 {
+	font-size:  24px !important;
+}
+
+.home .dates-n-links .fusion-social-links .fusion-social-networks a {
+	font-size: 24px;
+}
+
+.home .dates-n-links .fusion-button-wrapper {
+	margin: 10px auto 0;
+}
+
+.home .dates-n-links .fusion-button {
+	width: 200px;
+}
+
+.home .fusion-blog-shortcode .post:last-of-type {
+	margin-bottom: 0;
+}
+
+.home #sessionize {
+	margin-bottom: 31px;
+}
+
+.home #sessionize.sessionize-wrapper a:hover, #sessionize.sessionize-wrapper a:focus, #sessionize.sessionize-wrapper a:active {
+    box-shadow: 0 1px 0 0 rgba(255,255,255,0.7) !important;
+}
+
+.home #sessionize .sz-speaker.sz-speaker--compact .sz-speaker__name a {
+	color: #fefefe !important;
+}
+
+.home #sessionize .sz-speaker.sz-speaker--compact .sz-speaker__tagline {
+	color: #f0f0f0 !important; 
+}
+
+.home #sessionize {
+	pointer-events: none;
+}
+
+/*
+Button Colors:
+
+#717777
+#86b700
+#3e4444
+#a0db00
+
+*/
